@@ -42,9 +42,9 @@ import traceback
 if sys.platform == 'win32':
     import win32com.client
 from thread import start_new_thread
-from PIL import Image
-from PIL import JpegImagePlugin
-from PIL import GifImagePlugin
+import Image
+import JpegImagePlugin
+import GifImagePlugin
 
 from geoexif import *
 from gpx import *
